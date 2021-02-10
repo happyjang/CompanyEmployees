@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployees", "CompanyEmployees\CompanyEmployees.csproj", "{66D6064A-AED7-4DEF-97A4-41764C4F27F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{424B8DDF-5C8A-4A87-B914-4292205C2BAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{6EB1A9EC-89E3-4A3A-88B8-B5431F8E0EDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{CFB07EB7-7E1A-4BF2-A230-1AF6682104B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{F4BABA69-298F-4C55-9507-35FDAEF6F95A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B684C71B-9A7B-4F75-BB34-3E78B514179B}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D6064A-AED7-4DEF-97A4-41764C4F27F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D6064A-AED7-4DEF-97A4-41764C4F27F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D6064A-AED7-4DEF-97A4-41764C4F27F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D6064A-AED7-4DEF-97A4-41764C4F27F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424B8DDF-5C8A-4A87-B914-4292205C2BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424B8DDF-5C8A-4A87-B914-4292205C2BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424B8DDF-5C8A-4A87-B914-4292205C2BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424B8DDF-5C8A-4A87-B914-4292205C2BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB1A9EC-89E3-4A3A-88B8-B5431F8E0EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB1A9EC-89E3-4A3A-88B8-B5431F8E0EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB1A9EC-89E3-4A3A-88B8-B5431F8E0EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB1A9EC-89E3-4A3A-88B8-B5431F8E0EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB07EB7-7E1A-4BF2-A230-1AF6682104B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB07EB7-7E1A-4BF2-A230-1AF6682104B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB07EB7-7E1A-4BF2-A230-1AF6682104B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB07EB7-7E1A-4BF2-A230-1AF6682104B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BABA69-298F-4C55-9507-35FDAEF6F95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BABA69-298F-4C55-9507-35FDAEF6F95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BABA69-298F-4C55-9507-35FDAEF6F95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BABA69-298F-4C55-9507-35FDAEF6F95A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52539DA0-BB91-4C2C-B855-703F9D41CDF4}
+	EndGlobalSection
+EndGlobal

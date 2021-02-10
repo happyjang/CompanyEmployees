@@ -1,0 +1,4 @@
+2021-02-03 10:43:29.0557 INFO Employee with id 08d8c7d6-0eca-4691-8e6e-c0b0d74f7d2f doesn't exist in the database.
+2021-02-03 10:52:24.3517 INFO Employee with id 08d8c7d8-b1ed-4638-88dd-b2413ab43202 doesn't exist in the database
+2021-02-03 11:04:51.6011 INFO Company with id 08d8c7d8-b1e0-4a2c-8c7c-9f14b5ee2f5e doesn't exist in the database
+2021-02-03 11:04:51.6011 INFO Company with id 08d8c7d8-b1e0-4a2c-8c7c-9f14b5ee2f5e doesn't exist in the database

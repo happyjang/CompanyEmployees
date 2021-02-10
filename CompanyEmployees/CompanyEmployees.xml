@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompanyEmployees</name>
+    </assembly>
+    <members>
+        <member name="M:CompanyEmployees.Controllers.CompaniesController.GetCompanies">
+            <summary>
+            Gets a list of all companies
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.CompaniesController.GetCompany(System.Guid,System.Guid)">
+            <summary>
+            Gets a single company by ID
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.CompaniesController.CreateCompany(Entities.DataTransferObjects.CompanyForCreationDto)">
+            <summary>
+            Creates a new company
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.CompaniesController.DeleteCompany(System.Guid)">
+            <summary>
+            Deletes a company by ID
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.CompaniesController.UpdateCompany(System.Guid,Entities.DataTransferObjects.CompanyForUpdateDto)">
+            <summary>
+            Updates a company by ID
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.EmployeesController.GetEmployeesForCompany(System.Guid)">
+            <summary>
+            Gets all employees for selected company
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.EmployeesController.GetEmployeeForCompany(System.Guid,System.Guid)">
+            <summary>
+            Gets employee by ID
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.EmployeesController.CreateEmployeeForCompany(System.Guid,Entities.DataTransferObjects.EmployeeForCreationDto)">
+            <summary>
+            Creates new employee for selected company
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.EmployeesController.DeleteEmployeeForCompany(System.Guid,System.Guid)">
+            <summary>
+            Deletes employee by ID
+            </summary>
+        </member>
+        <member name="M:CompanyEmployees.Controllers.EmployeesController.UpdateEmployeeForCompany(System.Guid,System.Guid,Entities.DataTransferObjects.EmployeeForUpdateDto)">
+            <summary>
+            Updates employee by ID
+            </summary>
+        </member>
+    </members>
+</doc>
